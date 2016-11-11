@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8643507D1DD67731002CFE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643507C1DD67731002CFE4B /* AppDelegate.swift */; };
+		8643507F1DD67731002CFE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643507E1DD67731002CFE4B /* ViewController.swift */; };
+		864350821DD67731002CFE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864350801DD67731002CFE4B /* Main.storyboard */; };
+		864350851DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 864350831DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodeld */; };
+		864350871DD67731002CFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864350861DD67731002CFE4B /* Assets.xcassets */; };
+		8643508A1DD67731002CFE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864350881DD67731002CFE4B /* LaunchScreen.storyboard */; };
+		864350951DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864350941DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodTests.swift */; };
+		864350A01DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643509F1DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864350911DD67731002CFE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864350711DD67731002CFE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864350781DD67731002CFE4B;
+			remoteInfo = "Lopes_Core Data goes Hollywood";
+		};
+		8643509C1DD67731002CFE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864350711DD67731002CFE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864350781DD67731002CFE4B;
+			remoteInfo = "Lopes_Core Data goes Hollywood";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864350791DD67731002CFE4B /* Lopes_Core Data goes Hollywood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lopes_Core Data goes Hollywood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8643507C1DD67731002CFE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8643507E1DD67731002CFE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		864350811DD67731002CFE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		864350841DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lopes_Core_Data_goes_Hollywood.xcdatamodel; sourceTree = "<group>"; };
+		864350861DD67731002CFE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864350891DD67731002CFE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8643508B1DD67731002CFE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864350901DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lopes_Core Data goes HollywoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864350941DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lopes_Core_Data_goes_HollywoodTests.swift; sourceTree = "<group>"; };
+		864350961DD67731002CFE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8643509B1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lopes_Core Data goes HollywoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8643509F1DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lopes_Core_Data_goes_HollywoodUITests.swift; sourceTree = "<group>"; };
+		864350A11DD67731002CFE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864350761DD67731002CFE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8643508D1DD67731002CFE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864350981DD67731002CFE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864350701DD67731002CFE4B = {
+			isa = PBXGroup;
+			children = (
+				8643507B1DD67731002CFE4B /* Lopes_Core Data goes Hollywood */,
+				864350931DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests */,
+				8643509E1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests */,
+				8643507A1DD67731002CFE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8643507A1DD67731002CFE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864350791DD67731002CFE4B /* Lopes_Core Data goes Hollywood.app */,
+				864350901DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests.xctest */,
+				8643509B1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8643507B1DD67731002CFE4B /* Lopes_Core Data goes Hollywood */ = {
+			isa = PBXGroup;
+			children = (
+				8643507C1DD67731002CFE4B /* AppDelegate.swift */,
+				8643507E1DD67731002CFE4B /* ViewController.swift */,
+				864350801DD67731002CFE4B /* Main.storyboard */,
+				864350861DD67731002CFE4B /* Assets.xcassets */,
+				864350881DD67731002CFE4B /* LaunchScreen.storyboard */,
+				8643508B1DD67731002CFE4B /* Info.plist */,
+				864350831DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodeld */,
+			);
+			path = "Lopes_Core Data goes Hollywood";
+			sourceTree = "<group>";
+		};
+		864350931DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				864350941DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodTests.swift */,
+				864350961DD67731002CFE4B /* Info.plist */,
+			);
+			path = "Lopes_Core Data goes HollywoodTests";
+			sourceTree = "<group>";
+		};
+		8643509E1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8643509F1DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodUITests.swift */,
+				864350A11DD67731002CFE4B /* Info.plist */,
+			);
+			path = "Lopes_Core Data goes HollywoodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864350781DD67731002CFE4B /* Lopes_Core Data goes Hollywood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864350A41DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes Hollywood" */;
+			buildPhases = (
+				864350751DD67731002CFE4B /* Sources */,
+				864350761DD67731002CFE4B /* Frameworks */,
+				864350771DD67731002CFE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lopes_Core Data goes Hollywood";
+			productName = "Lopes_Core Data goes Hollywood";
+			productReference = 864350791DD67731002CFE4B /* Lopes_Core Data goes Hollywood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8643508F1DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864350A71DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes HollywoodTests" */;
+			buildPhases = (
+				8643508C1DD67731002CFE4B /* Sources */,
+				8643508D1DD67731002CFE4B /* Frameworks */,
+				8643508E1DD67731002CFE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864350921DD67731002CFE4B /* PBXTargetDependency */,
+			);
+			name = "Lopes_Core Data goes HollywoodTests";
+			productName = "Lopes_Core Data goes HollywoodTests";
+			productReference = 864350901DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8643509A1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864350AA1DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes HollywoodUITests" */;
+			buildPhases = (
+				864350971DD67731002CFE4B /* Sources */,
+				864350981DD67731002CFE4B /* Frameworks */,
+				864350991DD67731002CFE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8643509D1DD67731002CFE4B /* PBXTargetDependency */,
+			);
+			name = "Lopes_Core Data goes HollywoodUITests";
+			productName = "Lopes_Core Data goes HollywoodUITests";
+			productReference = 8643509B1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864350711DD67731002CFE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lopes,Grevil Gonsalo";
+				TargetAttributes = {
+					864350781DD67731002CFE4B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8643508F1DD67731002CFE4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 864350781DD67731002CFE4B;
+					};
+					8643509A1DD67731002CFE4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 864350781DD67731002CFE4B;
+					};
+				};
+			};
+			buildConfigurationList = 864350741DD67731002CFE4B /* Build configuration list for PBXProject "Lopes_Core Data goes Hollywood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864350701DD67731002CFE4B;
+			productRefGroup = 8643507A1DD67731002CFE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864350781DD67731002CFE4B /* Lopes_Core Data goes Hollywood */,
+				8643508F1DD67731002CFE4B /* Lopes_Core Data goes HollywoodTests */,
+				8643509A1DD67731002CFE4B /* Lopes_Core Data goes HollywoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864350771DD67731002CFE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8643508A1DD67731002CFE4B /* LaunchScreen.storyboard in Resources */,
+				864350871DD67731002CFE4B /* Assets.xcassets in Resources */,
+				864350821DD67731002CFE4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8643508E1DD67731002CFE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864350991DD67731002CFE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864350751DD67731002CFE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864350851DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodeld in Sources */,
+				8643507F1DD67731002CFE4B /* ViewController.swift in Sources */,
+				8643507D1DD67731002CFE4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8643508C1DD67731002CFE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864350951DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864350971DD67731002CFE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864350A01DD67731002CFE4B /* Lopes_Core_Data_goes_HollywoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864350921DD67731002CFE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864350781DD67731002CFE4B /* Lopes_Core Data goes Hollywood */;
+			targetProxy = 864350911DD67731002CFE4B /* PBXContainerItemProxy */;
+		};
+		8643509D1DD67731002CFE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864350781DD67731002CFE4B /* Lopes_Core Data goes Hollywood */;
+			targetProxy = 8643509C1DD67731002CFE4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		864350801DD67731002CFE4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864350811DD67731002CFE4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		864350881DD67731002CFE4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				864350891DD67731002CFE4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		864350A21DD67731002CFE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		864350A31DD67731002CFE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864350A51DD67731002CFE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lopes_Core Data goes Hollywood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-Hollywood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		864350A61DD67731002CFE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lopes_Core Data goes Hollywood/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-Hollywood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		864350A81DD67731002CFE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lopes_Core Data goes HollywoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-HollywoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lopes_Core Data goes Hollywood.app/Lopes_Core Data goes Hollywood";
+			};
+			name = Debug;
+		};
+		864350A91DD67731002CFE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lopes_Core Data goes HollywoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-HollywoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lopes_Core Data goes Hollywood.app/Lopes_Core Data goes Hollywood";
+			};
+			name = Release;
+		};
+		864350AB1DD67731002CFE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lopes_Core Data goes HollywoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-HollywoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lopes_Core Data goes Hollywood";
+			};
+			name = Debug;
+		};
+		864350AC1DD67731002CFE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lopes_Core Data goes HollywoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GrevilLopes.Lopes-Core-Data-goes-HollywoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lopes_Core Data goes Hollywood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864350741DD67731002CFE4B /* Build configuration list for PBXProject "Lopes_Core Data goes Hollywood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864350A21DD67731002CFE4B /* Debug */,
+				864350A31DD67731002CFE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864350A41DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes Hollywood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864350A51DD67731002CFE4B /* Debug */,
+				864350A61DD67731002CFE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864350A71DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes HollywoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864350A81DD67731002CFE4B /* Debug */,
+				864350A91DD67731002CFE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		864350AA1DD67731002CFE4B /* Build configuration list for PBXNativeTarget "Lopes_Core Data goes HollywoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864350AB1DD67731002CFE4B /* Debug */,
+				864350AC1DD67731002CFE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		864350831DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				864350841DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodel */,
+			);
+			currentVersion = 864350841DD67731002CFE4B /* Lopes_Core_Data_goes_Hollywood.xcdatamodel */;
+			path = Lopes_Core_Data_goes_Hollywood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 864350711DD67731002CFE4B /* Project object */;
+}
